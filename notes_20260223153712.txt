@@ -1,0 +1,23 @@
+02.18 7:59 PM
+Task 2
+import java.lang.*;
+public class perfect {
+public static void main (String ARGS[]){
+Scanner obj=new scanner (System.in);
+for(int a=1;a<=100;a++)
+int sum=0;
+int n=a;
+for(int b=1;b<=n;b++)
+{
+if(n%b==0)
+{
+sum=sum+b;
+}
+if(n==sum){
+ System .out.println("perfect"+n);}
+else;{
+System.out.println("not"+n);
+}
+}
+}
+}

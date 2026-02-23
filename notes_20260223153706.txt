@@ -1,0 +1,23 @@
+02.18 7:56 PM
+Task 1
+import java.lang.*;
+public class prime{
+public static void main (String ARGS[]){
+Scanner obj=new scanner (System.in);
+for(int a=1;a<=100;a++)
+int count=0;
+int n=a;
+for(int b=1;b<=n;b++)
+{
+if(n%a==0)
+{
+count++;
+}
+if(count==0){
+ System .out.println("prime"+n);}
+else;{
+System.out.println("not"+n);
+}
+}
+}
+}

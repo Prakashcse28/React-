@@ -1,0 +1,23 @@
+02.18 8:03 PM
+Task 3 Array 
+import java.lang.*;
+public class prime{
+public static void main (String ARGS[]){
+Scanner obj=new scanner (System.in);
+for(int a=1;a<size;a++)
+int sum=0;
+int n[a]=n;
+
+}
+if(n%a==0)
+{
+sum=sum+a;
+}
+if(n==sum){
+ System .out.println("perfect"+n);}
+else;{
+System.out.println("not"+n);
+}
+}
+}
+}
